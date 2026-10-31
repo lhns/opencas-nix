@@ -1,0 +1,47 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1793183032,
+        "narHash": "sha256-56mFMf8heLNfYhcgbrh4GpN5x+G9JOfTFXZC3n6w0qM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "08d3a97586f6b6343b3b5e799980773629432610",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "open-cas-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1784038481,
+        "narHash": "sha256-sBeDZU9LMc9SSPRQr0ZJ9A8dp6cPlQM7vmb1OMmMJOs=",
+        "ref": "refs/tags/v26.03.3+mode.2",
+        "rev": "ebe2be399414bef2aadd9e5dbbba408dc8533e9f",
+        "revCount": 2807,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/lhns/open-cas-linux"
+      },
+      "original": {
+        "ref": "refs/tags/v26.03.3+mode.2",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/lhns/open-cas-linux"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "open-cas-src": "open-cas-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
